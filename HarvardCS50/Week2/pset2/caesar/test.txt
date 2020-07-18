@@ -1,0 +1,22 @@
+:( encrypts "barfoo" as "onesbb" using 65 as key
+    output not valid ASCII text
+
+:( handles non-numeric key timed out while waiting for program to exit
+
+:( encrypts "a" as "b" using 1 as key
+    expected prompt for input, found none
+
+:( encrypts "barfoo" as "yxocll" using 23 as key
+    expected prompt for input, found none
+
+:( encrypts "BARFOO" as "EDUIRR" using 3 as key
+    expected prompt for input, found none
+
+:( encrypts "BaRFoo" as "FeVJss" using 4 as key
+    expected prompt for input, found none
+
+:( encrypts "barfoo" as "onesbb" using 65 as key
+    expected prompt for input, found none
+    
+:( encrypts "world, say hello!" as "iadxp, emk tqxxa!" using 12 as key
+    expected prompt for input, found none

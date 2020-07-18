@@ -1,0 +1,13 @@
+cs50 functions that will prompt the user for an input of that respective data type
+
+get_char
+
+get_double
+
+get_float
+
+get_int
+
+get_long
+
+get_string

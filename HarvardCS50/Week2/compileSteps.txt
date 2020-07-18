@@ -1,0 +1,18 @@
+Steps that "make" or "clang -o somefile somefile.c -lcs50" do to compile code
+1. preprocessing - preprocessing (ex. #include(<stio.h>) goes out to the relevent libraries referenced in the beginning of the file and pulls in the underlying code that is used in file like printf() or get_string();
+
+2. compiling - compile converts code over to assembly code which what read by cpu
+
+3. assembling - assembling converts from assembly code to binary code which is then processed by computer
+
+4. linking - 
+
+
+
+Debugging - Grace hopper while working on the Mark2 discovered a bug inside of the machine which was causing it to malfunction
+
+ - to debug in sandbox us "help50 make buggy0" when compiling  code
+
+CS50 IDE (Interactive Development Environment) a visual studio code like tool for developing and debugging
+
+ - to debug in CS IDE use "debug50 make buggy2" 

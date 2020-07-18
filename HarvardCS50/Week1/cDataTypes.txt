@@ -1,0 +1,24 @@
+Data Types available for use in C
+List:
+
+bool (1 byte)
+- true or false
+
+char (1 byte)
+- a single character like 'y' or 'n'
+
+double (8 byte)
+- a longer version of a float similar to int/long relationship
+
+float (4 byte)
+- a real number which can contain decimals
+
+int (4 byte)
+- integer a whole number which can count up to about 4 billion
+
+long (8 byte)
+- long is the data type to use when a variable is going to possibly go over 4 billion
+
+string (? byte)
+- one or more characters inside of double quotes
+

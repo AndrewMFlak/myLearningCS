@@ -1,0 +1,31 @@
+c placeholders used to return a specific data type
+
+"%c"
+- char
+
+"%f"
+- float, double
+"%.1f"
+- float 1 decimal place
+"%.2f"
+- float 2 decimal place
+"%.3f"
+- float 3 decimal place
+"%.4f"
+- float 4 decimal place
+"%.5f"
+- float 5 decimal place
+
+
+"%i"
+- int
+
+"%li"
+- long
+
+"%s"
+- string
+
+"%p"
+- void
+
