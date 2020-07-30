@@ -1,0 +1,60 @@
+Types of algorithms:
+
+-linear search = searching an array one by one to find a given parameter
+
+-binary search = divide array and search,  divide and search, divide and search.
+
+
+
+Logarithmic Complexity
+
+
+Big O notation 
+- Used to judge the upper bounds OR worst case scenario of
+
+-An approximate gage of how effective an algorithm is.
+
+-Ranges from:
+
+O (n^2) = bubble sort, selection search
+O (n log n) = merge sort
+O (n) = linear search
+O (log n) = binary search
+O (1)
+
+
+
+Omega
+- Used to judge the best case scenario for how an algorithm functions
+- In locker example the Omega (best case scenario) would be 1
+
+Omega (n^2) = selection search
+Omega (n log n) = merge sort
+Omega (n) = bubble sort
+Omega (log n)
+Omega (1) = linear search, binary search
+
+Code is typically judged in the worst case by computer scientists rather than the best case
+
+Binary search is more efficient linear search is entirely based on the assumption that we have the ability to sort an array.  If we do not have the ability to sort an array and have to rely on bubble sort to do so the work for a binary search would be significantly more cost (O(n^2)) than just a linear search (O(n)).
+
+
+Selection sort produces a sort and replace array[i] with the lowest number and repeat process.  This orders on the big O scale as O(n^2)
+
+
+recursion as a means of seeing if we can do better than bubble sort and selection sort.  recursion is simply the practice of a piece of code referencing itself.  Think of a "search left half of phone book for Mike Smith".
+
+A recursive definition is when you can define something in terms of itself....think Mario pyramid.  Mario pyramid[2] is just pyarmid[1] + 1;
+
+#
+##
+
+
+Merge sort is the practice of splitting an array into two groups, sorting each group and then merging the two groups together
+
+Theta: If the uppoer bounds (O) and lower bounds (Omega) of an algorithm are the same it can described using short hand notation as theta
+Theta (n^2) = selection search
+Theta (n log n) = merge sort
+Theta (n)
+Theta (log n)
+Theta (1)
