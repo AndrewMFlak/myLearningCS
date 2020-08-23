@@ -1,0 +1,7 @@
+//To call valgrind
+
+valgrind --tool=memcheck --leak-check=yes ./malloc
+
+
+
+*not compatible with macOS Catalina
